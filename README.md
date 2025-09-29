@@ -13,7 +13,9 @@ Users can drag the map to move the pin to set their delivery location. The app s
 
 ## Watch the Demo
 
-[![Watch the demo](./docs/images/app.png)](https://drive.google.com/file/d/10R8iiH1mXLhC38lrWxP2kvkMD_8RgHS9/view?usp=sharing)
+See a demo video [here](https://drive.google.com/file/d/10R8iiH1mXLhC38lrWxP2kvkMD_8RgHS9/view?usp=sharing).
+
+![Thumbnail](./docs/images/app.png)
 
 ## Features
 
