@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import Map from '$lib/Map.svelte';
+</script>
+
+<svelte:head>
+  <title>Delivery Location</title>
+  <meta name="description" content="Confirm your delivery location on the map." />
+</svelte:head>
+
+<main>
+  <Map />
+</main>
+
+<style>
+  main {
+    height: 100vh;
+    width: 100vw;
+  }
+</style>

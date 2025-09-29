@@ -1,38 +1,40 @@
-# sv
+# Delivery Map App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
-## Creating a project
+An interactive delivery location selector built with **SvelteKit**, using the **Google Maps JavaScript SDK**.  
+Users can drag the map to move the pin to set their delivery location. The app saves the location in `localStorage` and displays the street address dynamically.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Watch the Demo
 
-```sh
-# create a new project in the current directory
-npx sv create
+[![Watch the demo](./docs/images/app.png)](https://drive.google.com/file/d/10R8iiH1mXLhC38lrWxP2kvkMD_8RgHS9/view?usp=sharing)
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Features
 
-## Developing
+- Interactive Google Maps with a centered custom pin
+- Location saved to localStorage (restored across sessions)
+- Reverse geocoding to show the real street address
+- Responsive, mobile-first design for delivery apps
+- Performance optimizations with async script loading
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Getting Started
 
-```sh
-npm run dev
+See [INSTALL.md](./INSTALL.md) for setup documentation.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Strategies
 
-## Building
+See [INSTALL.md](./INSTALL.md) for setup documentation.
 
-To create a production version of your app:
+## Performance
 
-```sh
-npm run build
-```
+See [PERFORMANCE.md](./PERFORMANCE.md) for performance documentation.
 
-You can preview the production build with `npm run preview`.
+## Contributors
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [Mahmoud Abou Eleneen (@mahmoudaboueleneen)](https://www.github.com/mahmoudaboueleneen)
