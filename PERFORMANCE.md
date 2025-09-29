@@ -44,3 +44,16 @@ This then performs a call to save the data using:
   - Google Maps API key is missing.
   - LocalStorage read/write fails.
 - Makes debugging performance issues easier.
+
+## 8. Performance Testing
+
+### Methodology
+
+- Used **Chrome DevTools** and **Performance Panel** with:
+  - **CPU throttling**: 6× slowdown (simulating low-tier mobile devices).
+  - **Network throttling**: "Fast 3G" profile for slower connection simulation.
+- Compared side-by-side with the official **Google Maps web app** under the same conditions.
+
+### Results
+
+- Map Interactions such as Panning and zooming were noticeably smoother in this implementation compared to the Google Maps web app on throttled CPUs.
